@@ -1,0 +1,22 @@
+nav>ul {
+    display: flex;
+}
+
+nav li:hover {
+    background-color: cyan;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav>ul>li>ul {
+    display: none;
+}
