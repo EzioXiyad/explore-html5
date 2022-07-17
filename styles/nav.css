@@ -17,6 +17,19 @@ nav li a {
     text-decoration: none;
 }
 
-nav>ul>li>ul {
+nav>ul>li:hover>ul {
+    display: block;
+
+}
+
+.dropdown {
     display: none;
+    position: absolute;
+    background-color: cornsilk;
+    padding: 0;
+}
+
+.dropdown li {
+    margin: 0;
+    padding: 0;
 }
